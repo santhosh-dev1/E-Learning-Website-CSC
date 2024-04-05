@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <style>
+        #home{
+            background-image: linear-gradient(rgb(9,5,54,0.3),rgb(5,4,46,0.7)),url("images/banner.jpg");
+        }
+        #registration{
+            background-image: linear-gradient(rgb(99,112,168,0.5),rgb(81,91,233,0.5)),url("images/signup.jpg");
+        }
+        #course .course-box{
+            grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+            cursor: pointer;
+        }
+        #experts .expert-box{
+           
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            
+        }
+        #course .courses{
+           padding-bottom: 20px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo.png" alt="logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="#">Blog</a></li> -->
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu-icon.png" alt="menu">
+        </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="home">
+        <h2>Enhance Your Future With CSC</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero corporis 
+            cum nihil, earum dignissimos, quaerat,
+             voluptates inventore commodi unde at exercitationem 
+             consequatur minus quam.</p>
+
+        <div class="btn">
+            <a class="blue" href="#">Learn More!</a>
+            <a  class="yellow" href="courses.html">Visit Courses</a>
+        </div> 
+    </section>
+    <section id="feautures">
+        <h1>Awesome Feautures</h1>
+        <p>Replenish man have thing gathering lights yeilding shall you</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <h3>Scholarship Facility</h3>
+                <p>one make creepth, man bearing their firmament won't great heaven</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Dell Online Course</h3>
+                <p>one make creepth, man bearing their firmament won't great heaven</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa fa-award" aria-hidden="true"></i>
+                <h3>Global Certification</h3>
+                <p>one make creepth, man bearing their firmament won't great heaven</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- courses -->
+
+    <section id="course">
+        <h1>Our popular Courses</h1>
+        <p>Replenish man have thing gathering lights yeilding shall you</p>
+
+        <div class="course-box ">
+            <div class="courses" onclick="window.location.href='course-inner2.html';">
+                <img src="images/hdca.jpg" alt="java">
+                <div class="details">
+                    <span>Updated 01/02/2024</span>
+                    <h6>Honors in Diploma (HDCA)</h6>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+
+                    </div>
+                </div>
+                <div class="cost">
+                    30hrs
+                </div>
+            </div>
+            <div class="courses" onclick="window.location.href='course-inner2.html'">
+                <img src="images/dca.jpg" alt="java">
+                <div class="details">
+                    <span>Updated 01/02/2024</span>
+                    <h6>Diploma in Computer Applications (DCA)</h6>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(239)</span>
+
+                    </div>
+                </div>
+                <div class="cost">
+                    30hrs
+                </div>
+            </div>
+            <div class="courses" onclick="window.location.href='course-inner2.html'" >
+                <img src="images/DA (1).jpg" alt="java">
+                <div class="details">
+                    <span>Updated 01/02/2024</span>
+                    <h6>Advanced Diploma in Data Analyst (ADDA)</h6>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+
+                    </div>
+                </div>
+                <div class="cost">
+                    30hrs
+                </div>
+            </div>
+            <div class="courses" onclick="window.location.href='course-inner2.html'" >
+                <img src="images/tally.jpg" alt="java">
+                <div class="details">
+                    <span>Updated 01/02/2024</span>
+                    <h6>Tally-Prime</h6>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+
+                    </div>
+                </div>
+                <div class="cost">
+                    30hrs
+                </div>
+            </div>
+            <div class="courses" onclick="window.location.href='course-inner2.html'" >
+                <img src="images/webd.jpg" alt="java">
+                <div class="details">
+                    <span>Updated 01/02/2024</span>
+                    <h6>FullStack Web Development</h6>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+
+                    </div>
+                </div>
+                <div class="cost">
+                    30hrs
+                </div>
+            </div>
+            <div class="courses" onclick="window.location.href='course-inner2.html'" >
+                <img src="images/java2" alt="java">
+                <div class="details">
+                    <span>Updated 01/02/2024</span>
+                    <h6>Java Begginers Course</h6>
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(239)</span>
+
+                    </div>
+                </div>
+                <div class="cost">
+                    30hrs
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="registration">
+        <div class="reminder">
+            <p>Get Courses for Your choice</p>
+            <h1>Register To Get It</h1>
+            <div class="time">
+                <div class="date">
+                    <span id="day" >00</span> <br> Days
+                </div>
+                <div class="date ">
+                    <span id="hours">00</span> <br> Hours
+                </div>
+                <div class="date ">
+                    <span id="minutes">00</span> <br> Minutes
+                </div>
+                <div class="date">
+                    <span id="seconds">00</span> <br> Seconds
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="form">
+            <h3>Create Free Account Now!</h3>
+            <form action="connection.php" method="post"> 
+                <input id="name" type="text" name="name" placeholder="Name">
+                <input id="name" type="text" name="course" placeholder="Enter course">
+                <input id="email" type="text"name="email" placeholder="Email Address">
+                <input id="phone" type="text" name="phone" placeholder="Phone Number">
+                <input id="city" type="text" name="city" placeholder="Enter city">
+                <div class="btn">
+                    <input type="submit" class="yellow" name="submit" value="Register">
+                    
+                </div> 
+            </form>
+           
+        </div>
+    </section>
+
+    <!-- experts -->
+    <section id="experts">
+        <h1>Our Community experts</h1>
+        <p>Replenish man have thing gathering lights yeilding shall you</p>
+        <div class="expert-box">
+            <div class="profile">
+                <img src="images/profilepic.jpg" alt="profilepic">
+                <h6>Abinash</h6>
+                <p>Tally & MS-office Expert </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                
+                </div>
+                   
+            </div>
+
+            <div class="profile">
+                <img src="images/profilepic.jpg" alt="profilepic">
+                <h6>Abinash</h6>
+                <p>Tally & MS-office Expert </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                
+                </div>
+                   
+            </div>
+
+            <div class="profile">
+                <img src="images/profilepic.jpg" alt="profilepic">
+                <h6>Abinash</h6>
+                <p>Tally & MS-office Expert </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                
+                </div>
+                   
+            </div>
+
+            <div class="profile">
+                <img src="images/profilepic.jpg" alt="profilepic">
+                <h6>Abinash</h6>
+                <p>Tally & MS-office Expert </p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                
+                </div>
+                   
+            </div>
+
+           
+
+            
+
+            
+        </div>
+
+
+    </section>
+
+    <!--footer -->
+    <footer id="footer">
+        <p>copyright @2024 All rigts reserved|This template is made by Santhosh</p>
+        <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        
+        </div>
+
+    </footer>
+
+
+    <script>
+        const days=document.getElementById("day");
+        const hours=document.getElementById("hours");
+        const minutes=document.getElementById("minutes");
+        const seconds=document.getElementById("seconds");
+
+
+
+        function UpdateTime(){
+            const currentYear=new Date().getFullYear();
+            const newYear=new Date(`january 1 ${currentYear+1} 00:00:00`);
+            const currentDate=new Date();
+            const diff=newYear-currentDate;
+            const d=Math.floor(diff/1000/60/60/24);
+            const h=Math.floor((diff/1000/60/60)%24);
+            const m=Math.floor((diff/1000/60)%60);
+            const s=Math.floor((diff/1000)%60);
+
+            days.innerHTML=d<10?"0"+d:d;
+            hours.innerHTML=h<10?"0"+h:h;
+            minutes.innerHTML=m<10?"0"+m:m;
+            seconds.innerHTML=s<10?"0"+s:s;
+
+        }
+
+        setInterval(UpdateTime,1000);
+    </script>
+
+
+
+    <!-- <script src="script.js"></script> -->
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $(' nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
